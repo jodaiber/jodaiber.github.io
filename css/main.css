@@ -253,6 +253,9 @@ a:not(.label):focus {
 
 #frontpage #instafeed a {
   flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 0;
   opacity: 0.35;
   transition: opacity 0.2s ease;
@@ -261,8 +264,10 @@ a:not(.label):focus {
 #frontpage #instafeed img {
   display: block;
   width: 100%;
+  height: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
+  object-position: center center;
 }
 
 #frontpage #instafeed a:hover {
