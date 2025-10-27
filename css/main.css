@@ -236,23 +236,47 @@ a:not(.label):focus {
 }
 
 #frontpage #instafeed {
-  line-height: 0px;
+  line-height: 0;
+  display: flex;
+  gap: 8px;
+}
+
+#frontpage .instafeed-status {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+#frontpage .instafeed-status.is-error {
+  color: #a94442;
+}
+
+#frontpage #instafeed a {
+  flex: 1;
+  border: 0;
+  opacity: 0.35;
+  transition: opacity 0.2s ease;
 }
 
 #frontpage #instafeed img {
   display: block;
-  width: 75px;
-  height: 75px;
-}
-#frontpage #instafeed a {
-  display: inline-block;
-  border: 0px solid #999;
-  opacity: 0.3;
-  margin: 0 4px 4px 0;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 #frontpage #instafeed a:hover {
   opacity: 1;
+}
+
+@media (max-width: 700px) {
+  #frontpage #instafeed {
+    flex-wrap: wrap;
+  }
+
+  #frontpage #instafeed a {
+    flex: 1 1 calc(50% - 8px);
+  }
 }
 
 .content .inner {

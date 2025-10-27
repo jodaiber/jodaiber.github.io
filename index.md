@@ -3,6 +3,8 @@ layout: default
 title: Joachim Daiber
 ---
 
+<div id="frontpage" markdown="1">
+
 ## About me
 
 I am an applied scientist focused on machine learning and practical engineering. I was a co-founder and CTO of Objective, Inc. ([TechCrunch](https://techcrunch.com/2023/10/18/objective-emerges-from-stealth-to-deliver-multimodal-search-to-developers-as-an-api-platform/)), which was acquired by Upwork in November 2024.
@@ -23,6 +25,7 @@ in applications and evaluation of large language and vision models, machine tran
 ## News
 
 <!-- prettier-ignore -->
+- <span class="date-align">Nov 2025</span> <span class="seperator">~</span> <span class="post-desc">Paper on efficient LLM tool use at EMNLP 2025 (industry track).</span>
 - <span class="date-align">Nov 2024</span> <span class="seperator">~</span> <span class="post-desc">Objective, Inc. was acquired by Upwork.</span>
 - <span class="date-align">Sep 2021</span> <span class="seperator">~</span> <span class="post-desc">I started [Objective, Inc.](https://techcrunch.com/2023/10/18/objective-emerges-from-stealth-to-deliver-multimodal-search-to-developers-as-an-api-platform/) with Pablo and Lance.</span>
 - <span class="date-align">Jul 2020</span> <span class="seperator">~</span> <span class="post-desc">MKQA paper published in TACL, first machine learning dataset by Apple.</span>
@@ -51,3 +54,19 @@ in applications and evaluation of large language and vision models, machine tran
 {% endif %}
 
 {% endfor %}
+
+## Photography
+
+<div class="instagram-feed">
+<p id="instafeed-status" class="instafeed-status">Loading latest photos…</p>
+<div
+  id="instafeed"
+  data-feed-url="https://feeds.behold.so/LgJLioqQL2o4PvjncuBT"
+  data-limit="12"
+  aria-live="polite"
+></div>
+</div>
+
+</div>
+
+<script src="{{ '/js/behold-feed.js' | relative_url }}" defer></script>
