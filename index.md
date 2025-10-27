@@ -7,10 +7,10 @@ title: Joachim Daiber
 
 ## About me
 
-I am an applied scientist focused on machine learning and practical engineering. I was a co-founder and CTO of Objective, Inc. ([TechCrunch](https://techcrunch.com/2023/10/18/objective-emerges-from-stealth-to-deliver-multimodal-search-to-developers-as-an-api-platform/)), which was acquired by Upwork in November 2024.
-Previously, I was a Staff Machine Learning Engineer at Apple in California.
+I am an applied scientist focused on machine learning and practical engineering. I was co-founder and CTO of Objective, Inc. ([TechCrunch](https://techcrunch.com/2023/10/18/objective-emerges-from-stealth-to-deliver-multimodal-search-to-developers-as-an-api-platform/)), which was acquired by Upwork in November 2024.
+Prior, I was a staff machine learning engineer at Apple in California.
 
-I received my PhD at the [University of Amsterdam](https://www.illc.uva.nl/), where I worked with [Prof. Khalil Sima'an](https://staff.fnwi.uva.nl/k.simaan/) on machine translation. From 2011 until 2013, I was a Master's student in the [EM LCT](http://lct-master.org) programme in Computational Linguistics at Charles University in Prague and the University of Groningen. In my Master thesis, I worked on robust dependency parsing of noisy content with [Gertjan van Noord](http://www.let.rug.nl/vannoord/) and [Dan Zeman](http://ufal.mff.cuni.cz/daniel-zeman). During my undergraduate studies at Freie Universität Berlin, I worked at the German Research Center for Artifical Intelligence.
+I received my PhD at the [University of Amsterdam](https://www.illc.uva.nl/), where I worked with [Prof. Khalil Sima'an](https://staff.fnwi.uva.nl/k.simaan/) on machine translation. I earned an [Erasmus Mundus Master's in Language and Communication Technologies](http://lct-master.org) at Charles University in Prague and the University of Groningen.
 
 See my full CV [here]({{ '/doc/CV.pdf' | relative_url }}) or connect at [GitHub](http://github.com/jodaiber), [LinkedIn](https://www.linkedin.com/pub/joachim-daiber/84/279/93a) or write an email to daiber.joachim [at] gmail.com.
 
